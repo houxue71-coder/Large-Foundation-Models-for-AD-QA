@@ -1,0 +1,110 @@
+# Technical Roadmap of Foundation Models
+
+## 1. Overview
+
+This roadmap provides an overview of the development and evolution of large foundation models and related technologies that contribute to the advancement of autonomous driving question answering (QA).
+
+It summarizes representative milestones in the development of large language models (LLMs), vision-language models (VLMs), multimodal large language models (MLLMs), world models (WMs), and diffusion models (DMs). These models and technologies provide important foundations for multimodal perception, semantic understanding, reasoning, prediction, and decision-making in autonomous driving systems.
+
+The roadmap is organized chronologically to illustrate the evolution of these models and highlight the technological progress that has influenced the development of large foundation models for autonomous driving.
+
+## 2. Technical Roadmap
+
+The following figure illustrates the development timeline of representative foundation models and related technologies.
+
+<p align="center">
+  <img src="./roadmap.png" width="100%" alt="Technical Roadmap of Foundation Models"/>
+</p>
+
+## 3. Representative Models and Milestone Papers
+
+This section provides a collection of representative models and their corresponding publications, following the categories presented in the technical roadmap.
+
+The papers are organized into five categories:
+
+- **Large Language Models (LLMs):** Language models that demonstrate strong language understanding, generation, and reasoning capabilities.
+- **Vision-Language Models (VLMs):** Models that learn joint representations of visual and textual information.
+- **Multimodal Large Language Models (MLLMs):** Models that integrate large language models with multimodal inputs, enabling more general-purpose multimodal understanding and reasoning.
+- **World Models (WMs):** Models that learn representations of environments and their dynamics, supporting prediction, simulation, and planning.
+- **Diffusion Models (DMs):** Generative models based on diffusion processes, with applications in visual generation, trajectory generation, and planning.
+
+### 3.1 Large Language Models (LLMs)
+
+| Model | Paper Title | Year | BibTeX Key |
+|---|---|---:|---|
+| GPT-1 | [Improving Language Understanding by Generative Pre-Training](https://arxiv.org/abs/1801.06146) | 2018 | radford2018improving |
+| GPT-2 | [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | 2019 | radford2019language |
+| BERT | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) | 2019 | devlin2019bert |
+| XLNet | [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237) | 2019 | yang2019xlnet |
+| RoBERTa | [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692) | 2019 | liu2019roberta |
+| T5 | [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683) | 2019 | raffel2020exploring |
+| GPT-3 | [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) | 2020 | brown2020language |
+| Gopher | [Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446) | 2021 | rae2021scaling |
+| Chinchilla | [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) | 2022 | hoffmann2022training |
+| OPT | [OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068) | 2022 | zhang2022opt |
+| UL2 | [Unifying Language Learning Paradigms](https://arxiv.org/abs/2205.05131) | 2022 | tay2022ul2 |
+| BLOOM | [Introducing the BigScience Large Open-science Open-access Multilingual Language Model](https://arxiv.org/abs/2211.05100) | 2022 | scao2022bloom |
+| LLaMA | [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) | 2023 | touvron2023llama |
+| PaLM | [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311) | 2022 | chowdhery2022palm |
+
+### 3.2 Vision-Language Models (VLMs)
+
+| Model | Paper Title | Year | BibTeX Key |
+|---|---|---:|---|
+| ViLBERT | [ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265) | 2019 | lu2019vilbert |
+| VisualBERT | [VisualBERT: A Simple and Performant Baseline for Vision and Language](https://arxiv.org/abs/1908.03557) | 2019 | li2019visualbert |
+| LXMERT | [LXMERT: Learning Cross-Modality Encoder Representations from Transformers](https://arxiv.org/abs/1908.07490) | 2019 | tan2019lxmert |
+| VL-BERT | [VL-BERT: Pre-training of Generic Visual-Linguistic Representations](https://arxiv.org/abs/1908.08530) | 2019 | su2019vlbert |
+| UNITER | [UNITER: UNiversal Image-TExt Representation Learning](https://arxiv.org/abs/1909.11740) | 2019 | chen2020uniter |
+| CLIP | [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) | 2021 | radford2021learning |
+| BLIP | [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) | 2022 | li2022blip |
+| Flamingo | [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) | 2022 | alayrac2022flamingo |
+
+### 3.3 Multimodal Large Language Models (MLLMs)
+
+| Model | Paper Title | Year | BibTeX Key |
+|---|---|---:|---|
+| Kosmos-1 | [Language Is Not All You Need: Aligning Perception with Language Models](https://arxiv.org/abs/2302.14045) | 2023 | xu2023language |
+| InstructBLIP | [InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/abs/2305.06500) | 2023 | dai2023instructblip |
+| GPT-4V | [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) | 2023 | achiam2023gpt |
+| LLaVA | [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485) | 2023 | liu2023visual |
+| MiniGPT-4 | [MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592) | 2023 | zhu2023minigpt |
+| mPLUG-Owl | [mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality](https://arxiv.org/abs/2304.14178) | 2023 | ye2023mplug |
+| Shikra | [Shikra: Unleashing Multimodal LLM's Referential Dialogue Magic](https://arxiv.org/abs/2306.15195) | 2023 | chen2023shikra |
+| OpenFlamingo | [OpenFlamingo: An Open-Source Framework for Training Large Autoregressive Vision-Language Models](https://arxiv.org/abs/2308.01390) | 2023 | awadalla2023openflamingo |
+
+### 3.4 World Models (WMs)
+
+| Model | Paper Title | Year | BibTeX Key |
+|---|---|---:|---|
+| MuZero | [Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/abs/1911.08265) | 2019 | schrittwieser2020mastering |
+| Dreamer | [Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/abs/1912.01603) | 2019 | hafner2019dream |
+| World Model as a Graph | [World Model as a Graph](https://arxiv.org/search/?query=World+Model+as+a+Graph&searchtype=title) | 2020 | zhang2021world |
+| DayDreamer | [DayDreamer: World Models for Physical Robot Learning](https://arxiv.org/abs/2206.14176) | 2022 | wu2023daydreamer |
+| DreamerV3 | [Mastering Diverse Domains through World Models](https://arxiv.org/abs/2301.04104) | 2023 | hafner2023mastering |
+| UniZero | [UniZero](https://arxiv.org/search/?query=UniZero&searchtype=title) | 2024 | pu2024unizero |
+| WorldGPT | [WorldGPT](https://arxiv.org/search/?query=WorldGPT&searchtype=title) | 2024 | ge2024worldgpt |
+| MuZero Interpretation | [Interpreting the Learned Model in MuZero Planning](https://arxiv.org/abs/2411.04580) | 2024 | guei2024interpreting |
+
+### 3.5 Diffusion Models (DMs)
+
+| Model | Paper Title | Year | BibTeX Key |
+|---|---|---:|---|
+| DDPM | [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) | 2020 | ho2020denoising |
+| DDIM | [Denoising Diffusion Implicit Models](https://arxiv.org/abs/2010.02502) | 2020 | song2020denoising |
+| Improved DDPM | [Improved Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2102.09672) | 2021 | nichol2021improved |
+| Latent Diffusion | [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) | 2021 | rombach2022high |
+| Planning with Diffusion | [Planning with Diffusion for Flexible Behavior Synthesis](https://arxiv.org/abs/2205.09991) | 2022 | janner2022planning |
+| Imagen | [Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487) | 2022 | saharia2022photorealistic |
+| Classifier-Free Guidance | [Classifier-Free Diffusion Guidance](https://arxiv.org/abs/2207.12598) | 2022 | ho2022classifier |
+
+## 4. Notes
+
+- The roadmap highlights representative milestones rather than providing an exhaustive list of all foundation models.
+- The categories are organized according to the primary model architectures or technological paradigms discussed in the corresponding publications.
+- The publication year should be interpreted consistently, preferably based on the first public release of the corresponding paper.
+- The BibTeX keys are provided for reference management and citation purposes. Please refer to the original publications for complete bibliographic information.
+
+## 5. Contributions
+
+We welcome contributions, corrections, and suggestions regarding the roadmap and the associated publications. If you find missing papers or incorrect information, please feel free to open an issue or submit a pull request.
